@@ -1,0 +1,25 @@
+{
+  "name": "projeto-backend-infnet",
+  "version": "1.0.0",
+  "description": "Projeto BackEnd com Express e Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon backEnd/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Agnaldo Junior",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "http-status-codes": "^2.2.0",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "nodemon": "^2.0.22"
+  }
+}
